@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merienda&display=swap');
+
+
+body {
+    background-color: red;
+    margin: auto;
+    padding: 0;
+    font-size: 2vw;
+}
+
+p {
+    display: block;
+    height: 3vw;
+    word-wrap: normal;
+    /* overflow: hidden; */
+    display: block;
+    font-size: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 105%;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+}
+
+h4 {
+    font-size: 102%;
+    text-align: center;
+    display: block;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    height: 5vw;
+    background-color: green;
+    color: white;
+    font-family: Anton;
+    font-size: 2vw;
+}
+
+img {
+    width: 100%;
+    height: 12vw;
+    display: block;
+}
+
+.Title {
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-family: Merienda;
+}
+
+.main {
+    display: flex; 
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5%;
+    width: 80%;
+    padding: 10px;
+    margin: 2% auto;
+}
+
+.product {
+    width: 30%;
+    height: 35vw;
+    background-color: rgb(163, 163, 163);
+    padding: 1.2%;
+    margin: 2px;
+    border-radius: 3%;
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+button:active {
+    background-color: darkgreen;
+    color: whitesmoke;
+    transform: scale(96%);
+}
+
+.product:hover {
+    transform: scale(102%)
+}
